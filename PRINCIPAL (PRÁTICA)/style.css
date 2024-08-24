@@ -1,12 +1,18 @@
+@font-face {
+    font-family: 'Fig';
+    src: url(/BLOG-PREVIEW-CARD/fonts/Figtree-VariableFont_wght.ttf);
+}
 *{padding: 0; margin: 0;}
 
 .container{
     display: flex;
     flex-direction: column;
     border: solid 1px;
-    width: 336px;
+    width: 380px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: black 8px 8px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 body{
@@ -14,4 +20,53 @@ body{
     place-content: center;
     width: 100vw;
     height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+
+#img{
+    border-radius: 40px;
+    padding: 22px;
+}
+
+.greg{
+    height: 35px;
+    width: 35px;
+}
+
+span{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: max-content;
+    font-family: 'Fig';
+}
+
+.date{
+    font-family: "Fig";
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+
+.desc{
+    font-family: "Fig";
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.align{
+    margin: 0 0 15px 22px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Fig';
+    font-weight: 800;
+    font-size: 24px;
+}
+
+a:hover{
+    color: hsl(47, 88%, 63%);
 }
